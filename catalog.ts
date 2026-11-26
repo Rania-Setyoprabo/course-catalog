@@ -1,13 +1,9 @@
-import * as process from "node:process";
-
-
 interface course {
     id: string;
     title: string;
     category: "web" | "programming" | "design"
     month: number;
 }
-git
 const courses: Array<course> = [
     {
         id: "web101",
